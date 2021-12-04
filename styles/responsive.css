@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+  .exclusive-product-image img {
+    width: 60%;
+  }
+  .testimonial-card {
+    max-width: 23rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .brand-logo {
+    text-align: center;
+  }
+  .brand-logo a img {
+    width: 200px;
+  }
+  .app-info {
+    text-align: center;
+}
+
+.footer-social-links {
+    text-align: center;
+}
+.footer-logo {
+    text-align: center;
+    margin-top: 2rem;
+}
+}

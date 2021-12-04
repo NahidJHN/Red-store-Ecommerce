@@ -1,0 +1,190 @@
+@import url(./variable.css);
+
+.navbar .navbar-brand img {
+  width: 120px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: rgb(47, 43, 43);
+}
+.navbar-nav a:hover {
+  color: rgb(111, 111, 111);
+}
+
+.header {
+  background-image: var(--radial-gradient);
+  height: 100vh;
+}
+
+.banner .col-lg-6 img {
+  width: 100%;
+}
+.title-text {
+  font-size: var(--title-front-size);
+}
+
+.title-text::before {
+  content: "";
+  width: 137px;
+  background-color: rgb(255, 99, 71);
+  height: 6px;
+  display: block;
+  transform: translateY(39px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.feature-product {
+  padding-top: 2rem;
+}
+
+.feature-product .card-body a {
+  margin-right: 2px;
+  color: tomato;
+}
+
+.feature-product .card-body a:nth-last-child() {
+  color: white;
+}
+
+section.exclusive-product-area {
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: #ffd6d6;
+}
+
+.exclusive-product-image {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.exclusive-product-image img {
+  width: 45%;
+}
+
+.exclusive-product-text {
+  padding: 1rem;
+}
+
+.exclusive-product-text p {
+  color: rgb(83, 77, 77);
+}
+
+.exclusive-product-text h1 {
+  color: tomato;
+}
+
+.testimonial-section {
+  margin-top: 5rem;
+}
+
+.testimonial-card {
+  text-align: center;
+  max-width: 18rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+}
+
+.testimonial-card h5 {
+  margin-top: 10px;
+  color: tomato;
+}
+.testimonial-card span {
+  text-align: center;
+  color: tomato;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.testimonial-card .card-text {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card a {
+  color: tomato;
+}
+
+.testimonial-card .card-image img {
+  width: 100px;
+}
+
+.logo-section {
+  margin-top: 5rem;
+}
+.brand-logo a img {
+  width: 150px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.main-footer {
+  padding: 2rem 2rem;
+}
+
+.app-info h3 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.app-info h5 {
+  font-size: 10px;
+  color: #616161;
+}
+
+.app-info .g-store-apple-store img {
+  width: 100px;
+}
+
+.g-store-apple-store {
+  margin-top: 1.5rem;
+}
+
+footer {
+  background-color: black;
+  margin-top: 4rem;
+}
+
+.main-footer::after {
+  content: "";
+  width: 90%;
+  display: block;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+.footer-logo p {
+  color: #616161;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.footer-links {
+  text-align: center;
+}
+
+.footer-links h2,
+.footer-social-links h2 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+.footer-links ul li a,
+.footer-social-links ul li a {
+  color: #616161;
+  font-size: 14px;
+}
+
+.copy-right {
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
